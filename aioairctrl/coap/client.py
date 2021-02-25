@@ -72,7 +72,7 @@ class Client:
         return state_reported["state"]["reported"]
 
     async def observe_status(self):
-        logger.debug("observing status")
+        logger.debug("observing status...")
         request = Message(
             code=GET,
             mtype=NON,
